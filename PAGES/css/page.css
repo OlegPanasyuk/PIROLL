@@ -1,0 +1,11 @@
+.page {
+  width: 100%;
+  min-width: 1366px;
+}
+
+.page_landing {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 670px 420px 570px 240px 670px 930px 535px 500px 200px 750px 285px;
+}
+

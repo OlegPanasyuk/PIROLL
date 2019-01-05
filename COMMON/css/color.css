@@ -1,0 +1,12 @@
+:root {
+  --accent-color: #10c9c3;
+  --text-primary-color : #787878;
+  --text-secondary-color: #ffffff;
+  --text-dark-color: #191919;
+  --bgcolor-light: #ffffff;
+  --bgcolor-medium: #f5f5f5;
+  --bgcolor-dark: #141414;
+  --layer-color-light: #dddddd;
+  --layer-color-dark:#838383;
+  --layer-color-hover: #252525;
+}

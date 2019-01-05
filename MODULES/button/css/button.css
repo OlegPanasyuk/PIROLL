@@ -1,0 +1,12 @@
+.button {
+  text-transform: uppercase;
+  border: none;
+  background: none;
+  font-family: 'Monserrat';
+}
+
+.button_accent {
+  background-color: var(--accent-color);
+  color: var(--text-secondary-color);
+}
+

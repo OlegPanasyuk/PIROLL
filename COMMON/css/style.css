@@ -1,0 +1,28 @@
+@import url('/COMMON/css/fonts.css');
+@import url('/COMMON/css/color.css');
+@import url('/PAGES/css/page.css');
+@import url('/MODULES/header/css/header.css');
+@import url('/MODULES/about-us/css/about-us.css');
+@import url('/MODULES/text/css/text.css');
+@import url('/MODULES/skills/css/skills.css');
+@import url('/MODULES/numbers/css/numbers.css');
+@import url('/MODULES/works/css/works.css');
+@import url('/MODULES/work-process/css/work-process.css');
+@import url('/MODULES/services/css/services.css');
+@import url('/MODULES/service/css/service.css');
+@import url('/MODULES/reviews/css/reviews.css');
+@import url('/MODULES/clients/css/clients.css'); 
+@import url('/MODULES/order/css/order.css');
+@import url('/MODULES/footer/css/footer.css');
+@import url('/MODULES/menu/css/menu.css');
+@import url('/MODULES/banner/css/banner.css');
+@import url('/MODULES/button/css/button.css');
+
+
+
+.body {
+  margin: 0;
+}
+/* 
+central column is 1170px
+min-width of all site is 1366px */

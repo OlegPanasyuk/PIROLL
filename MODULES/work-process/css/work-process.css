@@ -1,0 +1,32 @@
+.work-process {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1170px 1fr;
+  grid-template-rows: 100px auto auto 1fr 100px;
+}
+
+.work-process > :nth-child(n) {
+  
+  margin:  0 auto;
+}
+
+.work-process__header {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+}
+
+.work-process__text {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+}
+
+.work-process__video {
+  height: 570px;
+  width: 100%;
+  background-color: var(--layer-color-light);
+  align-self: center;
+  grid-column: 2;
+  grid-row: 4;
+}

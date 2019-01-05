@@ -1,0 +1,28 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1170px;
+  align-self: center;
+  justify-self: center;
+}
+
+.about-us__text {
+  width: 50%;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+.about-us__header {
+  color: var(--text-dark-color);
+  font-size: 1.875em;
+  font-family: 'Monserrat';
+  margin-bottom:40px;
+}
+
+.about-us__signature {
+  margin-top: 40px;
+}
+

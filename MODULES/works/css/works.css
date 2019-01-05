@@ -1,0 +1,23 @@
+.works {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr) 100px;
+}
+
+.works__item:nth-of-type(2n+1), .works__item:nth-of-type(4) ~ .works__item:nth-of-type(2n) {
+  background: var(--layer-color-dark);
+}
+
+.works__item:nth-of-type(2n), .works__item:nth-of-type(4) ~ .works__item:nth-of-type(2n+1) {
+  background: var(--layer-color-light);
+}
+
+.works__item:hover, .works__item:nth-of-type(4) ~ .works__item:nth-of-type(2n+1):hover, .works__item:nth-of-type(4) ~ .works__item:nth-of-type(2n):hover {
+  background: var( --layer-color-hover);
+}
+
+.works__load-more {
+  grid-column: 1 / span 4;
+  background: var(--bgcolor-medium);
+}
