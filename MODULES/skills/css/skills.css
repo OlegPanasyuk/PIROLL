@@ -11,12 +11,21 @@
 .skills__box {
   grid-column: 2;
   grid-row: 1;
+  padding-right: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .skills__img {
   grid-column: 3 / span 2;
   grid-row: 1;
   background: var(--layer-color-light);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  
 }
 
 .skills__header {
@@ -24,12 +33,13 @@
 }
 
 .skills__list {
-  
+  width: 100%;
   list-style: none;
   padding: 0;
 }
 
 .skills__item {
+  margin-bottom: 35px;
   font-size: 12px;
   text-transform: uppercase;
 }

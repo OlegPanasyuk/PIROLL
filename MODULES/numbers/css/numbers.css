@@ -1,6 +1,9 @@
 .numbers {
   width: 100%;
+  height: 100%;
   background:var(--accent-color);
+  color: var(--text-secondary-color);
+  font-family: 'Monserrat';
 }
 
 .numbers__inner-wrapper {
@@ -14,6 +17,7 @@
 }
 
 .numbers__item {
+  grid-row: 1;
   align-self: center;
 }
 
@@ -31,4 +35,22 @@
 
 .numbers__item:nth-of-type(4) {
   grid-column: 10 / span 3;
+}
+
+.numbers__icon {
+  float: left;
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.numbers__number {
+  margin-bottom: 8px; 
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+.numbers__discription {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.75em;
 }

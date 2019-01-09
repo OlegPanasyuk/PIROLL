@@ -17,7 +17,11 @@
 @import url('/MODULES/menu/css/menu.css');
 @import url('/MODULES/banner/css/banner.css');
 @import url('/MODULES/button/css/button.css');
-
+@import url('/MODULES/bar/css/bar.css');
+@import url('/MODULES/video/css/video.css');
+@import url('/MODULES/review/css/review.css');
+@import url('/MODULES/circle/css/circle.css');
+@import url('/MODULES/form/css/form.css');
 
 
 .body {

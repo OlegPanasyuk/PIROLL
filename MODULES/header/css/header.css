@@ -2,7 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 170px 1000px 1fr;
   grid-template-rows: 100px 1fr;
-  background: var(--bgcolor-medium);
+  background: url('/COMMON/imgs/Free\ Creative\ Business\ Flatlay\ by\ Burst_07.jpg') var(--bgcolor-medium);
+  
+  object-fit: cover;
+  background-size: cover;  
+  background-position-y: bottom;
 }
 
 .header__logo {

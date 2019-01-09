@@ -53,46 +53,78 @@
       <div class='skills__box'>
         <h2 class="skills__header">Professional Skills</h2>
         <ul class="skills__list">
-          <li class="skills__item">UI/UX Design    75%</li>
-          <li class="skills__item">web development    90%</li>
-          <li class="skills__item">marketing    65%</li>
+          <li class="skills__item">
+            <p>UI/UX Design    75%</p>
+            <div class="bar">
+              <div class="bar__full" style='width: 75%'></div>
+            </div>
+          </li>
+          <li class="skills__item">
+            <p>web development    90%</p>
+            <div class="bar">
+                <div class="bar__full" style='width: 90%'></div>
+              </div>
+          </li>
+          <li class="skills__item">
+            <p>marketing    65%</p>
+            <div class="bar">
+                <div class="bar__full" style='width: 65%'></div>
+                
+              </div>
+          </li>
         </ul>
       </div>
-      <img src="" alt="" class="skills__img">
+      <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_03.jpg" alt="" class="skills__img">
     </section>
     <section class="numbers">
       <div class="numbers__inner-wrapper">
         <div class="numbers__item">
-          <img src="" alt="" class="numbers__icon">
+          <img src="/MODULES/numbers/icons/porfolio.png" alt="" class="numbers__icon">
           <div class="numbers__number">548</div>
           <div class="numbers__discription">projects completed</div>
         </div>
         <div class="numbers__item">
-          <img src="" alt="" class="numbers__icon">
+          <img src="/MODULES/numbers/icons/clock.png" alt="" class="numbers__icon">
           <div class="numbers__number">1465</div>
           <div class="numbers__discription">WORKING HOURS</div>
         </div>
         <div class="numbers__item">
-          <img src="" alt="" class="numbers__icon">
+          <img src="/MODULES/numbers/icons/star.png" alt="" class="numbers__icon">
           <div class="numbers__number">612</div>
           <div class="numbers__discription">POSITIVE FEEDBACKS</div>
         </div>
         <div class="numbers__item">
-          <img src="" alt="" class="numbers__icon">
+          <img src="/MODULES/numbers/icons/heart.png" alt="" class="numbers__icon">
           <div class="numbers__number">735</div>
           <div class="numbers__discription">HAPPY CLIENTS</div>
         </div>
       </div>
     </section>
     <section class="works">
-      <div class="works__item">1</div>
-      <div class="works__item">2</div>
-      <div class="works__item">3</div>
-      <div class="works__item">4</div>
-      <div class="works__item">5</div>
-      <div class="works__item">6</div>
-      <div class="works__item">7</div>
-      <div class="works__item">8</div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_01.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_02.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_03.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_04.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_05.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_06.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_07.jpg" alt="" class="worls__img">
+      </div>
+      <div class="works__item">
+        <img src="/COMMON/imgs/Free Creative Business Flatlay by Burst_08.jpg" alt="" class="worls__img">
+      </div>
       <div class="works__load-more">load more work</div>
     </section>
     <section class="work-process">
@@ -101,7 +133,23 @@
         Was years it seasons was there form he in in them together over that, 
         third sixth gathered female creeping bearing behold years.
       </div>
-      <div class="video work-process__video"></div>
+      <div class="video work-process__video">
+        <a href="" class="video__link">
+            <picture >
+                <source srcset='https://i.ytimg.com/vi_webp/neHA4MJwpnY/maxresdefault.webp' type='image/webp'>
+                <img class='video__media' src="https://i.ytimg.com/vi/neHA4MJwpnY/maxresdefault.jpg" alt="">     
+            </picture>
+        </a>
+       <button class='video__button' arial-label='Play video'>
+          <svg 
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="11px" height="17px">
+         <path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+          d="M10.999,8.500 L0.001,0.002 L0.001,16.998 L10.999,8.500 "/>
+         </svg>
+       </button>
+      </div>
     </section>
     <section class="services">
       <div class="services__inner-wrapper">
@@ -183,7 +231,9 @@
         </div>
       </div>
       <div class="reviews__nav">
-        123
+        <div class="circle"></div>
+        <div class="circle circle__selected"></div>
+        <div class="circle"></div>
       </div>
     </section>
     <section class="clients">
@@ -203,12 +253,12 @@
             if this could be the start of something beautiful.
         </div>
         <form action="" class="order__form form">
-          <input type="text" class="form__input form__input_name" name='name' placeholder="Your Name">
-          <input type="email" class="form__input form__input_email" name='email' placeholder='Your Email'>
-          <input type="text" class="form__input form__input_title" name='title' placeholder='Your Title'>
-          <input type="text" class="form__input form__input_comment" name='comment' placeholder='Your Comment'>
-          <button class="form__button button">send message</button>
+          <input type="text" class="form__input" name='name' placeholder="Your Name" style='grid-area: item1;'>
+          <input type="email" class="form__input" name='email' placeholder='Your Email' style='grid-area: item2;'>
+          <input type="text" class="form__input" name='title' placeholder='Your Title' style='grid-area: item3;'>
+          <input type="text" class="form__input" name='comment' placeholder='Your Comment' style='grid-area: item4;'>
         </form>
+        <button class="button button_accent order__button">send message</button>
       </div>
     </section>
     <footer class='footer'>
@@ -220,7 +270,7 @@
           Designed by robirurk.
       </div>
       <div class="footer__contacts">
-          hello@pirolltheme.com
+          hello@pirolltheme.com <br>
           +44 987 065 908 
       </div>
       <nav class="menu footer__nav">
@@ -245,5 +295,6 @@
       </div>
     </footer>
   </div>
+  <script src="/MODULES/video/js/video_script.js"></script>
 </body>
 </html>

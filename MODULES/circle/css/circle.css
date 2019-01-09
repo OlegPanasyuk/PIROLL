@@ -1,0 +1,14 @@
+.circle {
+  width: 6px;
+  height: 6px;
+  background-color: rgb(176, 232, 230);
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.circle__selected {
+  width: 10px;
+  height: 10px;
+  background: white;
+}
+

@@ -1,7 +1,54 @@
 .footer {
   background: var(--bgcolor-dark);
   display: grid;
-  grid-template-columns: 1fr 1170px 1fr;
-  grid-template-rows: 1fr;
+  color: var(--text-primary-color);
+  grid-template:
+    '. . . . . . .' 1fr
+    '. com . contacts nav social .' minmax(50px, auto)
+    '. rights . contacts nav social .' minmax(50px, auto)
+    '. . . . . . .' 1fr /
+    1fr 240px 220px 300px auto 110px 1fr ;
+  
+  
+}
+
+.footer__com {
+  grid-area: com;
+  font-family: 'Monserrat';
+  font-size: 1.125em;
+  align-self: center;
   color: var(--text-secondary-color);
+}
+
+.footer__rights {
+  grid-area: rights;
+  color: var(--text-primary-color);
+  font-family: 'NunitoSans';
+}
+
+.footer__contacts {
+  grid-area: contacts;
+  line-height: 1.6;
+  color: var(--text-primary-color);
+  font-family: 'NunitoSans';
+}
+
+.footer__nav {
+  grid-area: nav;
+  font-size: 15px;
+  color: var(--text-primary-color);
+  font-family: 'NunitoSans';
+}
+
+.footer__nav .menu__list {
+  column-count: 2;
+  color: var(--text-primary-color);
+  font-family: 'NunitoSans';
+}
+
+.footer__social {
+  grid-area: social;
+  margin-left: 150px;
+  color: var(--text-primary-color);
+  font-family: 'NunitoSans';
 }

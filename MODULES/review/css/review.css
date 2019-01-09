@@ -1,0 +1,20 @@
+.review {
+  color: var(--text-secondary-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  letter-spacing: 2px;
+}
+
+.review__text {
+  font-family: 'Monserrat';
+  font-size: 1.875em;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+}
+
+.review__author {
+  font-size: 0.75em;
+  font-family: 'Moserrat';
+  text-transform: uppercase;
+}

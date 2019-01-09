@@ -13,3 +13,34 @@
   height:100%;
   width: 670px;
 }
+
+.order__header {
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: var(--text-dark-color);
+  line-height: 2.8;
+  margin: 0;
+}
+
+.order__text {
+  text-align: center;
+  color: var(--text-primary-color);
+  line-height: 1.5;
+  width: 546px;
+}
+
+.order__form {
+  display: grid;
+  grid-gap: 30px;
+  width: 100%;
+  grid-template: 
+    'item1 item2' 48px
+    'item3 item3' 48px
+    'item4 item4' 170px /
+       1fr 1fr;
+}
+
+.order__button {
+    width: 180px;
+    height: 54px;  
+}

@@ -1,0 +1,10 @@
+.bar {
+  width: 100%;
+  background: var(--layer-color-light);
+  height: 3px;
+}
+
+.bar__full {
+  height: 100%;
+  background: var(--accent-color);
+}
